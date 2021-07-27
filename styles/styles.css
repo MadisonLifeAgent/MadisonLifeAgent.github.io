@@ -12,13 +12,38 @@
         /*grid-padding: 5%;
         grid-width: 100%;*/
     }
+
+@media (min-width: 300px) {
+    #mainformat {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "header header header"
+            "content content content"
+            "content content content"
+            "footer footer footer";
+    }
+}
+
+@media (max-width: 1280px) {
+    #mainformat {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "header"
+        "content"
+        "content"
+        "footer";
+    }
+}
 #headerimage {
     border-radius: 50%;
     border: 10px solid cornflowerblue;
     width: 25%;
     height: auto;
     
-} 
+}
+
 
 
 
