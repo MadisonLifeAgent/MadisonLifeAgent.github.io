@@ -105,9 +105,14 @@
 /* about image formatting */
 #aboutimage {
     border-radius: 50%;
-    border: 8px solid lightgrey;
+    border: 8px solid lightblue;
     max-width: 300px;
     height: auto;
+    margin: 2% auto auto auto;
+}
+
+#projectlinks {
+    text-decoration: none;
 }
 
 p {
