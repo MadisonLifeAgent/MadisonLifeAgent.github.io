@@ -2,7 +2,7 @@
 
 /* display grid formatting */
 #mainformat {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Kanit', sans-serif;
         color: black;
         text-align: center;
         display: grid;
@@ -113,6 +113,8 @@
 
 #projectlinks {
     text-decoration: none;
+    color: black;
+    font-family: 'Kanit', sans-serif;
 }
 
 p {
