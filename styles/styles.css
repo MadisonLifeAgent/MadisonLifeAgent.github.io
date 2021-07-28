@@ -56,7 +56,6 @@
     margin-right: auto;
 }
 
-/* display grid set up for all body sections */
 #navbar {
     text-align: center;
     font-size: 20px;
@@ -64,6 +63,7 @@
     margin-right: auto;
 }
 
+/* display grid set up for all body sections */
 #skills {
     display: grid;
     grid-area: 2 / 1 / span 1 / span 2;
@@ -88,4 +88,14 @@
 #contact {
     display: grid;
     grid-area: 6 / 1 / span 1 / span 2;
+}
+
+#aboutimage {
+    border-radius: 50%;
+    border: 8px solid lightgrey;
+    max-width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
