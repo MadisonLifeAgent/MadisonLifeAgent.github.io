@@ -44,14 +44,14 @@
 #home {
     grid-area: 1 / 1 / span 1 / span 3;
     text-align: center;
-    background-color: lightblue;
+    background-color: tan;
 }
 
 /* header image formatting */
 #headerimage {
     margin: 2% auto auto auto;
     border-radius: 50%;
-    border: 10px solid white;
+    border: 8px solid white;
     max-width: 220px;
     height: auto;
 }
@@ -61,34 +61,38 @@
     font-size: 20px;
     display: inline-block;
     margin: auto auto 1% auto;
+    background-color: Navy;
+    color: white;
+    text-decoration: none;
+
 }
 
 /* display grid set up for all body sections */
-#skills {
+#experience {
     text-align: center;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    grid-area: 2 / 2 / span 1 / span 1;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-area: 2 / 1 / span 1 / span 3;
 }
 #present {
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    grid-area: 3 / 2 / span 1 / span 1;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-area: 3 / 1 / span 1 / span 3;
 }
 #projects {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    grid-area: 4 / 2 / span 1 / span 1;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-area: 4 / 1 / span 1 / span 3;
 }
 #about {
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
+    margin-right: 20%;
     grid-area: 5 / 1 / span 1 / span 3;
 }
 #contact {
@@ -106,8 +110,6 @@
     height: auto;
 }
 
-#tabfive {
-    tab-size: 5;
-    font-family: Arial, Helvetica, sans-serif;
+p {
     text-align: left;
 }
