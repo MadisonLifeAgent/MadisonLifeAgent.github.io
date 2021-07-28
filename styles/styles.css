@@ -1,5 +1,6 @@
 /* Style Sheet for Portfolio Website */
 
+/* display grid formatting */
 #mainformat {
         font-family: Arial, Helvetica, sans-serif;
         color: black;
@@ -36,11 +37,14 @@
         "header"
         "content"
         "content"
+        "content"
+        "content"
+        "content"
         "footer";
     }
 }
 
-/* format for headshot image and name */
+/* display grid set up for headshot image and name */
 #headeravatar {
     grid-area: 1 / 1 / span 1 / span 3;
     text-align: center;  
@@ -56,6 +60,7 @@
     margin-right: auto;
 }
 
+/* display grid set up for all body sections */
 #navbar{
     grid-area: 2 / 1 / span 1 / span 3;
     text-align: justify;
@@ -64,6 +69,22 @@
     margin-right: auto;
 }
 
+#past {
+    grid-area: 3 / 1 / span 1 / span 3;
+}
 
+#present {
+    grid-area: 4 / 1 / span 1 / span 3;
+}
 
+#projects {
+    grid-area: 5 / 1 / span 1 / span 3;
+}
 
+#about {
+    grid-area: 6 / 1 / span 1 / span 3;
+}
+
+#contact {
+    grid-area: 7 / 1 / span 1 / span 3;
+}
