@@ -5,11 +5,11 @@
         font-family: Arial, Helvetica, sans-serif;
         color: black;
         text-align: center;
-        margin: 2%;
         display: grid;
+        margin: -1%;
         grid-template-columns: 400px 400px 400px 400px;
         grid-template-rows: auto auto auto auto;
-        grid-gap: 2%;
+        grid-gap: 1%;
     }
 
 @media (min-width: 360px) {
@@ -44,54 +44,54 @@
 #home {
     grid-area: 1 / 1 / span 1 / span 3;
     text-align: center;
+    background-color: lightblue;
 }
 
 /* header image formatting */
 #headerimage {
+    margin: 2% auto auto auto;
     border-radius: 50%;
-    border: 8px solid lightgrey;
+    border: 10px solid white;
     max-width: 220px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #navbar {
     text-align: center;
     font-size: 20px;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto 1% auto;
 }
 
 /* display grid set up for all body sections */
 #skills {
-    text-align: Center;
-    display: block;
+    text-align: center;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     grid-area: 2 / 2 / span 1 / span 1;
 }
 #present {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     grid-area: 3 / 2 / span 1 / span 1;
 }
 #projects {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     grid-area: 4 / 2 / span 1 / span 1;
 }
 #about {
-    display: inline-block;
+    text-align: center;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     grid-area: 5 / 1 / span 1 / span 3;
 }
 #contact {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     grid-area: 6 / 1 / span 1 / span 3;
@@ -104,3 +104,4 @@
     max-width: 300px;
     height: auto;
 }
+
