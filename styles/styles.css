@@ -21,6 +21,9 @@
             "header header header"
             "content content content"
             "content content content"
+            "content content content"
+            "content content content"
+            "content content content"
             "footer footer footer";
     }
 }
@@ -36,12 +39,29 @@
         "footer";
     }
 }
+
+/* format for headshot image and name */
+#headeravatar {
+    grid-area: 1 / 1 / span 1 / span 3;
+    text-align: center;  
+}
+
+/* header image formatting */
 #headerimage {
     border-radius: 50%;
-    border: 10px solid cornflowerblue;
-    width: 25%;
+    border: 8px solid lightgrey;
+    max-width: 20%;
     height: auto;
-    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar{
+    grid-area: 2 / 1 / span 1 / span 3;
+    text-align: justify;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
