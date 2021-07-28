@@ -19,20 +19,20 @@
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto auto;
         grid-template-areas:
-            "header header header"
-            "content content content"
-            "content content content"
-            "content content content"
-            "content content content"
-            "content content content"
-            "footer footer footer";
+            "header header"
+            "content content"
+            "content content"
+            "content content"
+            "content content"
+            "content content"
+            "footer footer";
     }
 }
 
 @media (max-width: 1280px) {
     #mainformat {
         grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto;
         grid-template-areas:
         "header"
         "content"
@@ -46,7 +46,7 @@
 
 /* display grid set up for headshot image and name */
 #headeravatar {
-    grid-area: 1 / 1 / span 1 / span 3;
+    grid-area: 1 / 1 / span 1 / span 2;
     text-align: center;  
 }
 
@@ -62,29 +62,33 @@
 
 /* display grid set up for all body sections */
 #navbar{
-    grid-area: 2 / 1 / span 1 / span 3;
+    grid-area: 2 / 1 / span 1 / span 2;
     text-align: justify;
-    font-size: 35px;
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#past {
-    grid-area: 3 / 1 / span 1 / span 3;
+#skills {
+    grid-area: 3 / 1 / span 1 / span 1;
+}
+
+#experience {
+    grid-area: 3 / 2 / span 1 / span 1;
 }
 
 #present {
-    grid-area: 4 / 1 / span 1 / span 3;
+    grid-area: 4 / 1 / span 1 / span 2;
 }
 
 #projects {
-    grid-area: 5 / 1 / span 1 / span 3;
+    grid-area: 5 / 1 / span 1 / span 2;
 }
 
 #about {
-    grid-area: 6 / 1 / span 1 / span 3;
+    grid-area: 6 / 1 / span 1 / span 2;
 }
 
 #contact {
-    grid-area: 7 / 1 / span 1 / span 3;
+    grid-area: 7 / 1 / span 1 / span 2;
 }
