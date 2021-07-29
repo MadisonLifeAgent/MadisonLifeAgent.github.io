@@ -67,27 +67,26 @@
     color: #4169e1;
     text-decoration: none;
     padding: 5px;
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
 #navbar:hover {
     background-color: #ffae42;
     color: #4169e1;
     padding: 5px;
-    border-radius: 2%;
 }
 
-#present {
+#intro {
     text-align: center;
     display: inline-block;
-    margin: auto 20% 3% 20%;
+    margin: auto 20% auto 20%;
     grid-area: 2 / 1 / span 1 / span 3;
 }
 /* display grid set up for all body sections */
 #experience {
     text-align: center;
     display: inline-block;
-    margin: auto 20% 3% 20%;
+    margin: auto 20% auto 20%;
     grid-area: 3 / 1 / span 1 / span 3;
 }
 #projects {
@@ -126,15 +125,14 @@
     text-decoration: none;
     color: black;
     font-family: 'Kanit', sans-serif;
-    font-style: italic;
     font-weight: bold;
 }
 
 #projectimages {
     display: inline-block;
-    border-radius: 5px;
-    border: 6px solid lightblue;
-    max-width: 50%;
+    border-radius: 10px;
+    border: 6px solid #4169e1;
+    max-width: 70%;
     height: auto;
     margin: 10px auto auto auto;
 }
