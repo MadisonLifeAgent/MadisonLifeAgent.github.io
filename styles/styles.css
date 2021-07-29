@@ -53,8 +53,7 @@
 #headerimage {
     margin: 2% auto auto auto;
     border-radius: 50%;
-    border: 8px solid white;
-    max-width: 220px;
+    max-width: 250px;
     height: auto;
 }
 
@@ -79,26 +78,20 @@
 #intro {
     text-align: center;
     display: inline-block;
-    margin: auto 20% auto 20%;
+    margin: auto 15% auto 15%;
     grid-area: 2 / 1 / span 1 / span 3;
 }
 /* display grid set up for all body sections */
-#experience {
-    text-align: center;
-    display: inline-block;
-    margin: auto 20% auto 20%;
-    grid-area: 3 / 1 / span 1 / span 3;
-}
 #projects {
     text-align: center;
     display: inline-block;
-    margin: auto 20% 3% 20%;
+    margin: auto 15% 3% 15%;
     grid-area: 4 / 1 / span 1 / span 3;
 }
 #about {
     text-align: center;
     display: inline-block;
-    margin: auto 20% 2% 20%;
+    margin: auto 15% 2% 15%;
     grid-area: 5 / 1 / span 1 / span 3;
 }
 #contact {
@@ -119,6 +112,12 @@
 #contactinfo{
     text-align: center;
     text-decoration: none;
+    color: #4169e1;
+}
+#contactinfo:hover {
+    background-color: #ffae42;
+    border-radius: 5px;
+    padding: 0px 5px;
 }
 
 #projectlinks {
@@ -127,6 +126,20 @@
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
 }
+#projectlinks:hover {
+    color: #4169e1;
+    background-color: #ffae42;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#projectsectionlink {
+    text-decoration: none;
+    color: #4169e1;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
 
 #projectimages {
     display: inline-block;
@@ -135,6 +148,10 @@
     max-width: 70%;
     height: auto;
     margin: 10px auto auto auto;
+}
+
+h2 {
+    color: #4169e1;
 }
 
 /*p {
