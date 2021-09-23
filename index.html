@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
     <title>Fue's Developer Portfolio & Resume</title>
 </head>
 
@@ -33,13 +35,13 @@
 
         <!-- Intro section -->
         <div id="intro">
-                <h2>"Remove doubt from the mind"</h2>
+                <h2>Intro</h2>
 
-                    <p>Recent graduate in the Full Stack Software Developer program at DevCodeCamp where we are learning the following languages and technologies:  JavaScript, HTML & CSS, Python, C#, Django, ASP.NET Core, MySQL Workbench, SQL & LINQ, Postman, Visual Studio, VS Code, React, GitHub, Git, Zoom, and Slack.<br/><br/>
+                    <p>Recent graduate in the Full Stack Software Developer program at DevCodeCamp where we learned and built applications using the following languages and technologies:  JavaScript, HTML, CSS, Bootstrap, Python, C#, Django, ASP.NET Core, MySQL Workbench, SQL & LINQ, Postman, Visual Studio, VS Code, React, GitHub, Git, Zoom, and Slack.<br/><br/>
 
-                        I am studying software development because it is challenging and rewarding.  I enjoy working with data and displaying data for others to see the significance of data.
+                        I am learning software development because it is challenging and rewarding.  Also, I enjoy working with data and displaying data for others to understand the significance of data.
                     <br><br>
-                    I am also a Licensed life insurance agent serving Wisconsin, Illinois, Michigan, and Minnesota residents (NPN 19594843).
+                    I am a Licensed life insurance agent serving Wisconsin, Illinois, Michigan, and Minnesota residents (NPN 19594843).
                     </p>
 
         </div>
@@ -50,10 +52,45 @@
                 <h2>Software Development Projects</h2>
             </a>
 
-                <p>
+            <!-- Project Accordions -->
+            <div class="accordion" id="projectAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            myProScout (Capstone)
+                    </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>For my capstone project I built myProScout, which is a player profiles management application.</p>
+
+                                <ul> myProScout solves two problems:
+                                    <li>The need for paper notes</li>
+                                    <li>Quicker collaboration amongst scouts</li>
+                                </ul>
+
+                                <p>For the first solution, a scout can use myProScout to create, view, edit, or delete player profiles. Scouts can create scouting reports and keep track of stats and take notes during a scouting event.</p>
+                                <p>This leads into the second solution, where scouting reports can be saved as they are still being written, allowing other scouts to view the latest saved version of a report.  Scouting reports can be easily accessed, so review and analysis can be conducted sooner helping an organization save time.</p>
+                                <ul>myProScout was built using:
+                                    <li>ASP.NET Core Web API Backend</li>
+                                    <li>MSSQL database</li>
+                                    <li>React frontend</li>
+                                    <li>JavaScript</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Bootstrap</li>
+
+
+                                <a id="projectlinks" href="https://github.com/MadisonLifeAgent/MyProScoutFrontEndRepo" target="_blank">
+                                    Repo Link</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+                <p id="projecttext">
+
                     <a id="projectlinks" href="https://github.com/MadisonLifeAgent/DayTripGeneratorRedo" target="_blank">
-                        Random Day Trip Generator (JavaScript) (Complete)
-                    </a>
+                        Random Day Trip Generator Repo (JavaScript)</a>
                     <br>
                         Application that generates a trip itinerary and allows a user to confirm or reselect trip options individually or entirely.
                     <br><br>
@@ -137,7 +174,7 @@
                 My work experience over the last decade has included customer service, sales, order processing, office admin work, inventory management, and information management. My biggest strengths are in office and computer related tasks, but I enjoy interacting with people throughout each day.
                 <br><br>
 
-                During my free time I enjoy playing sim racing and VR video games, board games, listening to audiobooks, podcasts, exercising, and working on my honey-do-list. My wife and I both grew up in Wisconsin and are happy to call it home. We live a simple lifestyle and love every moment we get with our families and friends.
+                During my free time I enjoy playing sim racing and VR video games, board games, watching baseball and soccer, listening to audiobooks, podcasts, exercising, and working on my honey-do-list. My wife and I both grew up in Wisconsin and are happy to call it home. We live a simple lifestyle and love every moment we get with our families and friends.
 
                 <br><br>
                 Please feel free to reach out to me via the methods below:</p>
@@ -146,7 +183,7 @@
         <!-- Contact Info -->
         <div id="contact">
             <h2>Contact Info</h2>
-                <p><a id="contactinfo" href="tel:+7155290297">Phone:  (715) 529-0297</a>
+                <p><a id="contactinfo" href="tel:+7155290297">Phone (Text Ok):  (715) 529-0297</a>
                     <br>
                     <a id="contactinfo" href="mailto:fuetmoua@yahoo.com">Email: fuetmoua@yahoo.com</a>
                     <br>
@@ -158,6 +195,9 @@
                     <a id="navbar" href='https://github.com/MadisonLifeAgent' target="_blank">GitHub Repo</a>
                     <a id="navbar" href=#about>About</a>
         </div>
+
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </body>
 </html>

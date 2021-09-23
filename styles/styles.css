@@ -134,8 +134,9 @@ div {
 #contactinfo{
     text-decoration: none;
     color: #4169e1;
-    padding-left: 0px 5px;
-
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -10px;
 }
 #contactinfo:hover {
     background-color: #ffae42;
@@ -145,20 +146,26 @@ div {
 /* styles for project section */
 #projectlinks {
     text-decoration: none;
-    color: black;
+    color: #4169e1;
     font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -10px;
 }
 #projectlinks:hover {
     color: #4169e1;
     background-color: #ffae42;
     border-radius: 5px;
-    padding: 3px;
 }
 
 #projectsectionlink {
     text-decoration: none;
     color: #4169e1;
     font-weight: bold;
+}
+
+#projecttext {
+    margin-left: 10px;
 }
 
 
