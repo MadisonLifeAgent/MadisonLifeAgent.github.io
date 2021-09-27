@@ -64,7 +64,7 @@ div {
 
 /* header image styles */
 #headerimage {
-    margin: 2% auto auto auto;
+    margin: 2% auto 2% auto;
     border-radius: 50%;
     max-width: 250px;
     height: auto;
